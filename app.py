@@ -35,7 +35,7 @@ BASE_HTML = """
 @app.route('/')
 def home():
     page_content = """
-        <h1>Welcome to the Homepage</h1>
+        <h1>Welcome to the Homepage of Dev Env</h1>
         <p>This entire website is running from a single Python file.</p>
         <p>No <code>templates/</code> folder, no <code>static/</code> folder—just pure Flask logic.</p>
     """
