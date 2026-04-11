@@ -1,4 +1,4 @@
-apiversion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gcp-devops-gke
@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/kodekloud-gcp-training/gcpdevops:latest
+        image: gcr.io/perfect-tape-487709-p0/gcpdevops:latest
         ports:
         - containerPort: 5000
         env:
-        - name: PORT
-          value: "5000"
+          - name: PORT
+            value: "5000"
